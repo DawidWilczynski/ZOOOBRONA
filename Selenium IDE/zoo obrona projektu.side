@@ -1,0 +1,77 @@
+{
+  "id": "684f049c-e5c4-4875-99d0-18468dbe73e6",
+  "version": "2.0",
+  "name": "zoo obrona projektu",
+  "url": "https://www.zoohurtowo.pl",
+  "tests": [{
+    "id": "f1bc59b5-28ac-4625-9dd7-4a3f3c466b3b",
+    "name": "Spradzenie banera",
+    "commands": [{
+      "id": "1f6abd1b-1ebc-4dbb-ad16-0cea7169ca4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97b8bb39-552e-4efc-97bd-02d0a86b0577",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f74961b-5932-41de-97e0-ffbbb34c0788",
+      "comment": "",
+      "command": "click",
+      "target": "css=#carousel .owl-dot:nth-child(2)",
+      "targets": [
+        ["css=#carousel .owl-dot:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='carousel']/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c25017d-d88c-401b-803f-7bd852fab2f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .item > .image img",
+      "targets": [
+        ["css=.active > .item > .image img", "css:finder"],
+        ["xpath=//div[@id='carousel']/div/div/div[4]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "254ddf82-c725-4f81-a4d2-4c8d4128af69",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30c73b8-698b-4a7a-8d85-6041982273ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ead7d2e-8594-48df-bb74-3388e57cf307",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f1bc59b5-28ac-4625-9dd7-4a3f3c466b3b"]
+  }],
+  "urls": ["https://www.zoohurtowo.pl/"],
+  "plugins": []
+}

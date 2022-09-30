@@ -1,0 +1,6 @@
+Feature: Funkcjonalność –Logowanie do konta 
+Scenario: Podając poprawne dane użytkownik może zalogować się do konta
+Given użytkownik jest na stronie logowania
+When użytkownik wpisze instniejące dane w polu login i hasło
+And użytkownik naciśnie przycisk Zaloguj
+Then użytkownik w prawym górnym rogu widzi adnotacje Twoje konto 
